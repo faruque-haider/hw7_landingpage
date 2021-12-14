@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* Header section */
+#hearder{
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+}
+.logo-part{
+    width: 25%;
+    float: left;
+}
+.logo-part a img{
+    width: 55%;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+}
+.menu-part nav{
+    margin: 18px 50px;
+}
+.menu-part nav ul li{
+    display: inline-block;
+    margin: 0px 12px;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.search-part{
+    width: 25%;
+    float: left;
+}
+.search-part input{
+    padding: 8px;
+    margin: 12px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 17px;
+}
+.search-part input::placeholder{
+    text-align: right;
+    font-size: 17px;
+}
+.search-part i{
+    font-size: 25px;
+    display: inline-block;
+}
+/* HERO Section */
+#hero{
+    width: 100%;
+    float: left;
+    background: url(../img/bg.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.hero-wp{
+    width: 50%;
+    float: left;
+    padding: 150px 0 0 70px;
+}
+.hero-wp h1{
+    color: #00D3B5;
+}
+.hero-wp h2{
+    color: white;
+    font-size: 50px;
+}
+.hero-wp P{
+    max-width: 400px;
+    color: white;
+    font-size: 18px;
+    margin: 50px 0px;
+}
+.hero-wp a button{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.hero-images{
+    margin-top: 50px;
+}
+.hero-images img{
+    width: 70px;
+    margin-right: 20px;
+}
+.hero-ip{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.hero-ip img{
+    width: 60%;
+    margin-top: 80px;
+}
